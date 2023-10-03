@@ -1,0 +1,99 @@
+<html>
+<body>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='../Css/Style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc34d5e83e.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <nav id="navbar">
+        <div class="logo">
+            <a href="../Vistas/index.html"><h1>Jah-Bar</h1></a>       
+        </div> 
+
+        <ul>
+            <li><a href="../Vistas/index.html" class="elementos-nav">Inicio</a></li>
+            <li><a href="#" class="elementos-nav">Cervezas</a></li>
+            <li><a href="#" class="elementos-nav">Nosotros</a></li>
+            <li><a href="#" class="elementos-nav">Contacto</a></li>
+        </ul>
+
+        <ul class="nav-right">
+            <li><a href="../Vistas/form.html" class="elementos-nav">Ingresar/Registrarse</a></li>
+            <li><a href="#" class="elementos-nav"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#" class="elementos-nav"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </nav>
+       
+</header>
+<main>
+    <section class="form">
+        <h2>Registro de Usuario</h2>
+            <form action="" method="POST">
+             <div class="form-div"> 
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input class="form-input" type="text" id="nombre" name="nombre" required>
+             </div>  
+           
+            <div class="form-div">
+                <label for="correo" class="form-label">Correo electrónico:</label>
+                <input class="form-input" type="email" id="correo" name="correo" required>
+            </div>
+            
+            <div class="form-div">
+                <label for="contrasena" class="form-label">Contraseña:</label>
+                <input class="form-input" type="password" id="contrasena" name="contrasena" required>
+            </div>
+            
+            <div class="form-div">
+                <label for="confirmar_contrasena" class="form-label">Confirmar Contraseña:</label>
+                <input class="form-input" type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+            </div>
+            
+            <div class="oferta-div">
+                <input type="checkbox" id="oferta" >
+                <label for="oferta" class="oferta-label" > Deseo seguir recibiendo novedades y ofertas.</label><br>
+            </div>
+            <input type="submit" value="Registrarse" class="register" >
+        </form>
+    </section>
+    
+    <section class="menu-3">
+        <div>
+            <h1><i class="fa-solid fa-truck"></i></h1> 
+            <h2>ENVIOS A TODO EL PAIS</h2>
+            <p>A todo el país en tiempo record.</p>
+         </div>
+
+        <div>
+           <h1><i class="fa-solid fa-credit-card"></i></h1> 
+           <h2>HASTA 12 CUOTAS</h2>
+           <p>Visa, Mastercard, Amex, Mercadopago.</p>
+        </div>
+
+        <div>
+            <h1><i class="fa-solid fa-cubes-stacked"></i></h1> 
+            <h2>AMPLIO STOCK</h2>
+            <p>Gracias a nuestra red de cervecerias</p>
+         </div>
+
+         <div>
+            <h1><i class="fa-solid fa-phone"></i></h1> 
+            <h2>VENTA TELEFÓNICA</h2>
+            <p>Tel. 4631-2022 Lun a Sab de 10 a 20hs.
+                Feriados de 11 a 20hs.</p>
+         </div>
+       
+    </section>
+</main>
+<footer>
+    
+    <h3><i class="fa-regular fa-registered"></i> Jah-Bar 2023. Todos los derechos reservados.</h3>
+</footer>
+</body>
+</html>
