@@ -206,3 +206,11 @@ footer h3{
   text-align: left;
   margin-bottom: -5px;
 }
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: #B06AB3;
+  padding-top: 20px;
+}
